@@ -28,7 +28,6 @@ const onAreaFrom = (value: number | null) => updateField('areaFrom', normalizeNu
 const onAreaTo = (value: number | null) => updateField('areaTo', normalizeNumber(value))
 const onRoomsFrom = (value: number | null) => updateField('roomsFrom', normalizeNumber(value))
 const onRoomsTo = (value: number | null) => updateField('roomsTo', normalizeNumber(value))
-const onAddress = (value: string) => updateField('address', value)
 </script>
 
 <template>
@@ -77,9 +76,7 @@ const onAddress = (value: string) => updateField('address', value)
         </div>
         <div class="filter-hint">Диапазон: {{ roomsBounds.min }} — {{ roomsBounds.max }}</div>
       </el-form-item>
-
-      
-      <el-button type="default" class="filter-reset" @click="handleReset">
+        <el-button type="default" class="filter-reset" @click="handleReset">
         Сбросить
       </el-button>
     </el-form>
@@ -133,7 +130,7 @@ const onAddress = (value: string) => updateField('address', value)
             <div class="filter-hint">Диапазон: {{ roomsBounds.min }} — {{ roomsBounds.max }}</div>
           </el-form-item>
 
-         
+          
 
           <el-button type="default" class="filter-reset" @click="handleReset">
             Сбросить
