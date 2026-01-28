@@ -16,7 +16,7 @@ export interface FilterErrors {
   roomsRange?: string
 }
 
-const DEFAULT_FILTERS: FilterState = {
+const FILTERS: FilterState = {
   areaFrom: null,
   areaTo: null,
   roomsFrom: null,
@@ -25,7 +25,7 @@ const DEFAULT_FILTERS: FilterState = {
 }
 
 export function useApartmentsFilter(apartments: Apartment[]) {
-  const filters = ref<FilterState>({ ...DEFAULT_FILTERS })
+  const filters = ref<FilterState>({ ...FILTERS })
   const debouncedAddress = ref('')
 
   let debounceTimer: ReturnType<typeof setTimeout> | undefined
@@ -74,18 +74,15 @@ export function useApartmentsFilter(apartments: Apartment[]) {
     const hasRoomsFrom = filters.value.roomsFrom != null
     const hasRoomsTo = filters.value.roomsTo != null
 
-    const areaInvalid = hasAreaFrom && hasAreaTo && (filters.value.areaFrom as number) > (filters.value.areaTo as number)
+    const areachecking = hasAreaFrom && hasAreaTo && (filters.value.areaFrom as number) > (filters.value.areaTo as number)
 
-    if (areaInvalid) {
-      nextErrors.areaRange = 'Нету квартиры'
-    }
+   if (areachecking) nextErrors.areaRange = 'неправильно'
 
-    const roomsInvalid =
+
+    const roomscheking =
       hasRoomsFrom && hasRoomsTo && (filters.value.roomsFrom as number) > (filters.value.roomsTo as number)
 
-    if (roomsInvalid) {
-      nextErrors.roomsRange = 'НФету квартиры'
-    }
+    if (roomscheking) nextErrors.roomsRange = 'неправильно'
 
     return nextErrors
   })
@@ -126,7 +123,7 @@ export function useApartmentsFilter(apartments: Apartment[]) {
   }
 
   function resetFilters() {
-    filters.value = { ...DEFAULT_FILTERS }
+    filters.value = { ...FILTERS }
   }
 
   return {
