@@ -77,14 +77,14 @@ export function useApartmentsFilter(apartments: Apartment[]) {
     const areaInvalid = hasAreaFrom && hasAreaTo && (filters.value.areaFrom as number) > (filters.value.areaTo as number)
 
     if (areaInvalid) {
-      nextErrors.areaRange = 'Значение «От» больше, чем «До». Диапазон будет скорректирован.'
+      nextErrors.areaRange = 'Нету квартиры'
     }
 
     const roomsInvalid =
       hasRoomsFrom && hasRoomsTo && (filters.value.roomsFrom as number) > (filters.value.roomsTo as number)
 
     if (roomsInvalid) {
-      nextErrors.roomsRange = 'Значение «От» больше, чем «До». Диапазон будет скорректирован.'
+      nextErrors.roomsRange = 'НФету квартиры'
     }
 
     return nextErrors

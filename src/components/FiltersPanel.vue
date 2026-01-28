@@ -28,6 +28,7 @@ const onAreaFrom = (value: number | null) => updateField('areaFrom', normalizeNu
 const onAreaTo = (value: number | null) => updateField('areaTo', normalizeNumber(value))
 const onRoomsFrom = (value: number | null) => updateField('roomsFrom', normalizeNumber(value))
 const onRoomsTo = (value: number | null) => updateField('roomsTo', normalizeNumber(value))
+const onAddress = (value: string) => updateField('address', value)
 </script>
 
 <template>
@@ -76,7 +77,18 @@ const onRoomsTo = (value: number | null) => updateField('roomsTo', normalizeNumb
         </div>
         <div class="filter-hint">Диапазон: {{ roomsBounds.min }} — {{ roomsBounds.max }}</div>
       </el-form-item>
-        <el-button type="default" class="filter-reset" @click="handleReset">
+
+      <el-form-item label="Адрес" class="filter-item">
+        <el-input
+          :model-value="modelValue.address"
+          clearable
+          placeholder="Напишите район"
+          @update:modelValue="onAddress"
+        />
+        
+      </el-form-item>
+
+      <el-button type="default" class="filter-reset" @click="handleReset">
         Сбросить
       </el-button>
     </el-form>
@@ -130,7 +142,15 @@ const onRoomsTo = (value: number | null) => updateField('roomsTo', normalizeNumb
             <div class="filter-hint">Диапазон: {{ roomsBounds.min }} — {{ roomsBounds.max }}</div>
           </el-form-item>
 
-          
+          <el-form-item label="Адрес" class="filter-item">
+            <el-input
+              :model-value="modelValue.address"
+              clearable
+              placeholder="Напишите район"
+              @update:modelValue="onAddress"
+            />
+           
+          </el-form-item>
 
           <el-button type="default" class="filter-reset" @click="handleReset">
             Сбросить
