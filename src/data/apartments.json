@@ -1,41 +1,562 @@
 [
-  { "id": 1, "area": 38, "rooms": 1, "address": "Астана, Есильский район, ул. Туркестан, 16", "image": "images/ap1.jpg" },
-  { "id": 2, "area": 45, "rooms": 1, "address": "Астана, Нура, пр. Кабанбай батыра, 58", "image": "images/ap1.jpg" },
-  { "id": 3, "area": 52, "rooms": 2, "address": "Астана, Алматинский район, ул. Сарайшық, 5", "image": "images/ap1.jpg" },
-  { "id": 4, "area": 61, "rooms": 2, "address": "Астана, Есильский район, ул. Достык, 13", "image": "images/ap1.jpg" },
-  { "id": 5, "area": 67, "rooms": 2, "address": "Астана, Байконур, ул. Бейбітшілік, 23", "image": "images/ap1.jpg" },
-  { "id": 6, "area": 72, "rooms": 3, "address": "Астана, Нура, ул. Сыганак, 18", "image": "images/ap1.jpg" },
-  { "id": 7, "area": 78, "rooms": 3, "address": "Астана, Есильский район, ул. Мәңгілік Ел, 35", "image": "images/ap1.jpg" },
-  { "id": 8, "area": 83, "rooms": 3, "address": "Астана, Алматинский район, ул. Кенесары, 42", "image": "images/ap1.jpg" },
-  { "id": 9, "area": 90, "rooms": 3, "address": "Астана, Нура, пр. Туран, 37", "image": "images/ap1.jpg" },
-  { "id": 10, "area": 96, "rooms": 4, "address": "Астана, Есильский район, ул. Орынбор, 22", "image": "images/ap1.jpg" },
-  { "id": 11, "area": 104, "rooms": 4, "address": "Астана, Байконур, ул. Абая, 11", "image": "images/ap1.jpg" },
-  { "id": 12, "area": 112, "rooms": 4, "address": "Астана, Алматинский район, ул. Богенбай батыра, 56", "image": "images/ap1.jpg" },
-  { "id": 13, "area": 120, "rooms": 5, "address": "Астана, Есильский район, ул. Ұлы Дала, 41", "image": "images/ap1.jpg" },
-  { "id": 14, "area": 132, "rooms": 5, "address": "Астана, Нура, ул. Айтматова, 9", "image": "images/ap1.jpg" },
-  { "id": 15, "area": 145, "rooms": 6, "address": "Астана, Есильский район, пр. Мәңгілік Ел, 55", "image": "images/ap1.jpg" },
-  { "id": 16, "area": 40, "rooms": 1, "address": "Астана, Алматинский район, ул. Кудайбердыулы, 12", "image": "images/ap1.jpg" },
-  { "id": 17, "area": 48, "rooms": 1, "address": "Астана, Сарыарка, пр. Женис, 27", "image": "images/ap1.jpg" },
-  { "id": 18, "area": 55, "rooms": 2, "address": "Астана, Нура, ул. Улы Дала, 27", "image": "images/ap1.jpg" },
-  { "id": 19, "area": 63, "rooms": 2, "address": "Астана, Есильский район, ул. Керей Жанибек хандар, 14", "image": "images/ap1.jpg" },
-  { "id": 20, "area": 70, "rooms": 2, "address": "Астана, Сарыарка, ул. Сейфуллина, 39", "image": "images/ap1.jpg" },
-  { "id": 21, "area": 74, "rooms": 3, "address": "Астана, Алматинский район, ул. Таха Хусейна, 6", "image": "images/ap1.jpg" },
-  { "id": 22, "area": 80, "rooms": 3, "address": "Астана, Нура, пр. Мангилик Ел, 62", "image": "images/ap1.jpg" },
-  { "id": 23, "area": 86, "rooms": 3, "address": "Астана, Есильский район, ул. Сауран, 3", "image": "images/ap1.jpg" },
-  { "id": 24, "area": 92, "rooms": 3, "address": "Астана, Байконур, ул. Иманова, 19", "image": "images/ap1.jpg" },
-  { "id": 28, "area": 126, "rooms": 5, "address": "Астана, Нура, ул. Кунаева, 12", "image": "images/ap1.jpg" },
-  { "id": 29, "area": 138, "rooms": 5, "address": "Астана, Сарыарка, ул. Республики, 45", "image": "images/ap1.jpg" },
-  { "id": 30, "area": 150, "rooms": 6, "address": "Астана, Алматинский район, пр. Туран, 29", "image": "images/ap1.jpg" },
-  { "id": 31, "area": 54, "rooms": 1, "address": "Астана, Алматинский район, ул. Кудайбердыулы, 12", "image": "images/ap1.jpg" },
-  { "id": 32, "area": 65, "rooms": 1, "address": "Астана, Сарыарка, пр. Женис, 27", "image": "images/ap1.jpg" },
-  { "id": 33, "area": 67, "rooms": 2, "address": "Астана, Нура, ул. Улы Дала, 27", "image": "images/ap1.jpg" },
-  { "id": 34, "area": 89, "rooms": 2, "address": "Астана, Есильский район, ул. Керей Жанибек хандар, 14", "image": "images/ap1.jpg" },
-  { "id": 35, "area": 213, "rooms": 2, "address": "Астана, Сарыарка, ул. Сейфуллина, 39", "image": "images/ap1.jpg" },
-  { "id": 36, "area": 54, "rooms": 3, "address": "Астана, Алматинский район, ул. Таха Хусейна, 6", "image": "images/ap1.jpg" },
-  { "id": 37, "area": 65, "rooms": 3, "address": "Астана, Нура, пр. Мангилик Ел, 62", "image": "images/ap1.jpg" },
-  { "id": 38, "area": 78, "rooms": 3, "address": "Астана, Есильский район, ул. Сауран, 3", "image": "images/ap1.jpg" },
-  { "id": 39, "area": 23, "rooms": 3, "address": "Астана, Байконур, ул. Иманова, 19", "image": "images/ap1.jpg" },
-  { "id": 29, "area": 122, "rooms": 5, "address": "Астана, Сарыарка, ул. Республики, 45", "image": "images/ap1.jpg" },
-  { "id": 30, "area": 123, "rooms": 6, "address": "Астана, Алматинский район, пр. Туран, 29", "image": "images/ap1.jpg" }
-  
+  {
+    "id": 1,
+    "area": 129,
+    "rooms": 5,
+    "address": "Астана, Байконур, ул. Сауран, 46",
+    "image": "images/ap11.webp"
+  },
+  {
+    "id": 2,
+    "area": 67,
+    "rooms": 3,
+    "address": "Астана, Нура, ул. Сауран, 58",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 3,
+    "area": 108,
+    "rooms": 4,
+    "address": "Астана, Байконур, ул. Республики, 17",
+    "image": "images/ap3.webp"
+  },
+  {
+    "id": 4,
+    "area": 105,
+    "rooms": 4,
+    "address": "Астана, Есильский район, ул. Ұлы Дала, 27",
+    "image": "images/ap8.webp"
+  },
+  {
+    "id": 5,
+    "area": 90,
+    "rooms": 4,
+    "address": "Астана, Сарыарка, ул. Сауран, 36",
+    "image": "images/ap12.webp"
+  },
+  {
+    "id": 6,
+    "area": 49,
+    "rooms": 1,
+    "address": "Астана, Сарыарка, ул. Бейбітшілік, 71",
+    "image": "images/ap3.webp"
+  },
+  {
+    "id": 7,
+    "area": 60,
+    "rooms": 2,
+    "address": "Астана, Алматинский район, ул. Туркестан, 79",
+    "image": "images/ap3.webp"
+  },
+  {
+    "id": 8,
+    "area": 107,
+    "rooms": 4,
+    "address": "Астана, Алматинский район, ул. Сейфуллина, 8",
+    "image": "images/ap1.jpg"
+  },
+  {
+    "id": 9,
+    "area": 80,
+    "rooms": 3,
+    "address": "Астана, Байконур, ул. Абая, 41",
+    "image": "images/ap3.webp"
+  },
+  {
+    "id": 10,
+    "area": 150,
+    "rooms": 6,
+    "address": "Астана, Алматинский район, ул. Кудайбердыулы, 46",
+    "image": "images/ap12.webp"
+  },
+  {
+    "id": 11,
+    "area": 80,
+    "rooms": 3,
+    "address": "Астана, Байконур, ул. Ұлы Дала, 52",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 12,
+    "area": 100,
+    "rooms": 4,
+    "address": "Астана, Есильский район, ул. Айтматова, 4",
+    "image": "images/ap1.jpg"
+  },
+  {
+    "id": 13,
+    "area": 73,
+    "rooms": 3,
+    "address": "Астана, Алматинский район, ул. Пушкина, 7",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 14,
+    "area": 55,
+    "rooms": 2,
+    "address": "Астана, Сарыарка, ул. Сыганак, 10",
+    "image": "images/ap8.webp"
+  },
+  {
+    "id": 15,
+    "area": 95,
+    "rooms": 4,
+    "address": "Астана, Сарыарка, ул. Кудайбердыулы, 39",
+    "image": "images/ap13.webp"
+  },
+  {
+    "id": 16,
+    "area": 115,
+    "rooms": 5,
+    "address": "Астана, Есильский район, ул. Туран, 40",
+    "image": "images/ap12.webp"
+  },
+  {
+    "id": 17,
+    "area": 34,
+    "rooms": 1,
+    "address": "Астана, Есильский район, ул. Ханов Керея и Жанибека, 41",
+    "image": "images/ap9.webp"
+  },
+  {
+    "id": 18,
+    "area": 131,
+    "rooms": 5,
+    "address": "Астана, Сарыарка, ул. Айтматова, 67",
+    "image": "images/ap9.webp"
+  },
+  {
+    "id": 19,
+    "area": 58,
+    "rooms": 2,
+    "address": "Астана, Байконур, ул. Женис, 66",
+    "image": "images/ap2.webp"
+  },
+  {
+    "id": 20,
+    "area": 103,
+    "rooms": 4,
+    "address": "Астана, Сарыарка, ул. Богенбай батыра, 65",
+    "image": "images/ap9.webp"
+  },
+  {
+    "id": 21,
+    "area": 98,
+    "rooms": 4,
+    "address": "Астана, Нура, ул. Орынбор, 11",
+    "image": "images/ap3.webp"
+  },
+  {
+    "id": 22,
+    "area": 69,
+    "rooms": 3,
+    "address": "Астана, Нура, ул. Мангилик Ел, 8",
+    "image": "images/ap6.webp"
+  },
+  {
+    "id": 23,
+    "area": 49,
+    "rooms": 2,
+    "address": "Астана, Байконур, ул. Кунаева, 4",
+    "image": "images/ap7.webp"
+  },
+  {
+    "id": 24,
+    "area": 107,
+    "rooms": 4,
+    "address": "Астана, Нура, ул. Достык, 26",
+    "image": "images/ap12.webp"
+  },
+  {
+    "id": 25,
+    "area": 101,
+    "rooms": 4,
+    "address": "Астана, Алматинский район, ул. Иманова, 21",
+    "image": "images/ap9.webp"
+  },
+  {
+    "id": 26,
+    "area": 125,
+    "rooms": 5,
+    "address": "Астана, Есильский район, ул. Кенесары, 15",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 27,
+    "area": 71,
+    "rooms": 3,
+    "address": "Астана, Сарыарка, ул. Ханов Керея и Жанибека, 34",
+    "image": "images/ap4.webp"
+  },
+  {
+    "id": 28,
+    "area": 132,
+    "rooms": 5,
+    "address": "Астана, Нура, ул. Иманова, 27",
+    "image": "images/ap11.webp"
+  },
+  {
+    "id": 29,
+    "area": 63,
+    "rooms": 2,
+    "address": "Астана, Алматинский район, ул. Улы Дала, 19",
+    "image": "images/ap1.jpg"
+  },
+  {
+    "id": 30,
+    "area": 42,
+    "rooms": 1,
+    "address": "Астана, Алматинский район, ул. Ұлы Дала, 37",
+    "image": "images/ap9.webp"
+  },
+  {
+    "id": 31,
+    "area": 118,
+    "rooms": 5,
+    "address": "Астана, Алматинский район, ул. Мангилик Ел, 27",
+    "image": "images/ap11.webp"
+  },
+  {
+    "id": 32,
+    "area": 69,
+    "rooms": 3,
+    "address": "Астана, Алматинский район, ул. Иманова, 17",
+    "image": "images/ap11.webp"
+  },
+  {
+    "id": 33,
+    "area": 104,
+    "rooms": 4,
+    "address": "Астана, Есильский район, ул. Сарайшык, 32",
+    "image": "images/ap14.webp"
+  },
+  {
+    "id": 34,
+    "area": 97,
+    "rooms": 4,
+    "address": "Астана, Нура, ул. Улы Дала, 21",
+    "image": "images/ap10.webp"
+  },
+  {
+    "id": 35,
+    "area": 120,
+    "rooms": 5,
+    "address": "Астана, Алматинский район, ул. Пушкина, 9",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 36,
+    "area": 63,
+    "rooms": 2,
+    "address": "Астана, Нура, ул. Богенбай батыра, 22",
+    "image": "images/ap2.webp"
+  },
+  {
+    "id": 37,
+    "area": 99,
+    "rooms": 4,
+    "address": "Астана, Байконур, ул. Орынбор, 8",
+    "image": "images/ap8.webp"
+  },
+  {
+    "id": 38,
+    "area": 146,
+    "rooms": 6,
+    "address": "Астана, Алматинский район, ул. Туркестан, 71",
+    "image": "images/ap12.webp"
+  },
+  {
+    "id": 39,
+    "area": 132,
+    "rooms": 5,
+    "address": "Астана, Алматинский район, ул. Иманова, 4",
+    "image": "images/ap4.webp"
+  },
+  {
+    "id": 40,
+    "area": 55,
+    "rooms": 2,
+    "address": "Астана, Есильский район, ул. Туркестан, 66",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 41,
+    "area": 39,
+    "rooms": 1,
+    "address": "Астана, Есильский район, ул. Сарайшык, 50",
+    "image": "images/ap3.webp"
+  },
+  {
+    "id": 42,
+    "area": 49,
+    "rooms": 1,
+    "address": "Астана, Нура, ул. Сарайшық, 58",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 43,
+    "area": 40,
+    "rooms": 1,
+    "address": "Астана, Алматинский район, ул. Улы Дала, 40",
+    "image": "images/ap16.webp"
+  },
+  {
+    "id": 44,
+    "area": 37,
+    "rooms": 1,
+    "address": "Астана, Байконур, ул. Кунаева, 22",
+    "image": "images/ap8.webp"
+  },
+  {
+    "id": 45,
+    "area": 80,
+    "rooms": 3,
+    "address": "Астана, Есильский район, ул. Кенесары, 28",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 46,
+    "area": 95,
+    "rooms": 4,
+    "address": "Астана, Алматинский район, ул. Сарайшық, 8",
+    "image": "images/ap9.webp"
+  },
+  {
+    "id": 47,
+    "area": 140,
+    "rooms": 6,
+    "address": "Астана, Сарыарка, ул. Таха Хусейна, 65",
+    "image": "images/ap12.webp"
+  },
+  {
+    "id": 48,
+    "area": 101,
+    "rooms": 4,
+    "address": "Астана, Сарыарка, ул. Абая, 69",
+    "image": "images/ap3.webp"
+  },
+  {
+    "id": 49,
+    "area": 32,
+    "rooms": 1,
+    "address": "Астана, Алматинский район, ул. Кудайбердыулы, 47",
+    "image": "images/ap2.webp"
+  },
+  {
+    "id": 50,
+    "area": 105,
+    "rooms": 4,
+    "address": "Астана, Есильский район, ул. Богенбай батыра, 24",
+    "image": "images/ap14.webp"
+  },
+  {
+    "id": 51,
+    "area": 119,
+    "rooms": 5,
+    "address": "Астана, Нура, ул. Богенбай батыра, 26",
+    "image": "images/ap16.webp"
+  },
+  {
+    "id": 52,
+    "area": 103,
+    "rooms": 4,
+    "address": "Астана, Есильский район, ул. Кунаева, 80",
+    "image": "images/ap9.webp"
+  },
+  {
+    "id": 53,
+    "area": 75,
+    "rooms": 3,
+    "address": "Астана, Нура, ул. Кабанбай батыра, 54",
+    "image": "images/ap1.jpg"
+  },
+  {
+    "id": 54,
+    "area": 131,
+    "rooms": 5,
+    "address": "Астана, Байконур, ул. Абая, 54",
+    "image": "images/ap11.webp"
+  },
+  {
+    "id": 55,
+    "area": 145,
+    "rooms": 6,
+    "address": "Астана, Байконур, ул. Достык, 28",
+    "image": "images/ap14.webp"
+  },
+  {
+    "id": 56,
+    "area": 33,
+    "rooms": 1,
+    "address": "Астана, Есильский район, ул. Керей Жанибек хандар, 78",
+    "image": "images/ap16.webp"
+  },
+  {
+    "id": 57,
+    "area": 122,
+    "rooms": 5,
+    "address": "Астана, Байконур, ул. Мәңгілік Ел, 76",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 58,
+    "area": 61,
+    "rooms": 2,
+    "address": "Астана, Сарыарка, ул. Кенесары, 47",
+    "image": "images/ap3.webp"
+  },
+  {
+    "id": 59,
+    "area": 100,
+    "rooms": 4,
+    "address": "Астана, Сарыарка, ул. Сарайшық, 18",
+    "image": "images/ap14.webp"
+  },
+  {
+    "id": 60,
+    "area": 107,
+    "rooms": 4,
+    "address": "Астана, Байконур, ул. Туркестан, 13",
+    "image": "images/ap13.webp"
+  },
+  {
+    "id": 61,
+    "area": 71,
+    "rooms": 3,
+    "address": "Астана, Алматинский район, ул. Абая, 60",
+    "image": "images/ap6.webp"
+  },
+  {
+    "id": 62,
+    "area": 64,
+    "rooms": 2,
+    "address": "Астана, Нура, ул. Айтматова, 28",
+    "image": "images/ap12.webp"
+  },
+  {
+    "id": 63,
+    "area": 71,
+    "rooms": 3,
+    "address": "Астана, Байконур, ул. Мангилик Ел, 22",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 64,
+    "area": 77,
+    "rooms": 3,
+    "address": "Астана, Нура, ул. Абая, 67",
+    "image": "images/ap8.webp"
+  },
+  {
+    "id": 65,
+    "area": 95,
+    "rooms": 4,
+    "address": "Астана, Байконур, ул. Иманова, 33",
+    "image": "images/ap8.webp"
+  },
+  {
+    "id": 66,
+    "area": 57,
+    "rooms": 2,
+    "address": "Астана, Нура, ул. Орынбор, 24",
+    "image": "images/ap11.webp"
+  },
+  {
+    "id": 67,
+    "area": 82,
+    "rooms": 3,
+    "address": "Астана, Алматинский район, ул. Туран, 67",
+    "image": "images/ap8.webp"
+  },
+  {
+    "id": 68,
+    "area": 148,
+    "rooms": 6,
+    "address": "Астана, Есильский район, ул. Туркестан, 31",
+    "image": "images/ap3.webp"
+  },
+  {
+    "id": 69,
+    "area": 129,
+    "rooms": 5,
+    "address": "Астана, Алматинский район, ул. Кунаева, 20",
+    "image": "images/ap1.jpg"
+  },
+  {
+    "id": 70,
+    "area": 67,
+    "rooms": 3,
+    "address": "Астана, Сарыарка, ул. Достык, 60",
+    "image": "images/ap7.webp"
+  },
+  {
+    "id": 71,
+    "area": 58,
+    "rooms": 2,
+    "address": "Астана, Есильский район, ул. Бейбітшілік, 22",
+    "image": "images/ap11.webp"
+  },
+  {
+    "id": 72,
+    "area": 83,
+    "rooms": 3,
+    "address": "Астана, Байконур, ул. Туран, 9",
+    "image": "images/ap4.webp"
+  },
+  {
+    "id": 73,
+    "area": 49,
+    "rooms": 2,
+    "address": "Астана, Байконур, ул. Республики, 47",
+    "image": "images/ap5.webp"
+  },
+  {
+    "id": 74,
+    "area": 59,
+    "rooms": 2,
+    "address": "Астана, Байконур, ул. Мәңгілік Ел, 7",
+    "image": "images/ap4.webp"
+  },
+  {
+    "id": 75,
+    "area": 132,
+    "rooms": 5,
+    "address": "Астана, Сарыарка, ул. Таха Хусейна, 70",
+    "image": "images/ap6.webp"
+  },
+  {
+    "id": 76,
+    "area": 35,
+    "rooms": 1,
+    "address": "Астана, Есильский район, ул. Женис, 28",
+    "image": "images/ap1.jpg"
+  },
+  {
+    "id": 77,
+    "area": 79,
+    "rooms": 3,
+    "address": "Астана, Нура, ул. Мәңгілік Ел, 63",
+    "image": "images/ap10.webp"
+  },
+  {
+    "id": 78,
+    "area": 63,
+    "rooms": 2,
+    "address": "Астана, Есильский район, ул. Сарайшык, 46",
+    "image": "images/ap7.webp"
+  },
+  {
+    "id": 79,
+    "area": 92,
+    "rooms": 4,
+    "address": "Астана, Есильский район, ул. Бейбітшілік, 80",
+    "image": "images/ap12.webp"
+  },
+  {
+    "id": 80,
+    "area": 77,
+    "rooms": 3,
+    "address": "Астана, Сарыарка, ул. Достык, 35",
+    "image": "images/ap16.webp"
+  }
 ]

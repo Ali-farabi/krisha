@@ -78,16 +78,7 @@ const onAddress = (value: string) => updateField('address', value)
         <div class="filter-hint">Диапазон: {{ roomsBounds.min }} — {{ roomsBounds.max }}</div>
       </el-form-item>
 
-      <el-form-item label="Адрес" class="filter-item">
-        <el-input
-          :model-value="modelValue.address"
-          clearable
-          placeholder="Например: Туркестан"
-          @update:modelValue="onAddress"
-        />
-        <div class="filter-hint">Поиск по подстроке, без учета регистра</div>
-      </el-form-item>
-
+      
       <el-button type="default" class="filter-reset" @click="handleReset">
         Сбросить
       </el-button>

@@ -20,14 +20,14 @@ const {
 </script>
 
 <template>
-  <div class="home">
-    <header class="home-header">
-      <h1 class="home-title">Квартиры в Астане</h1>
-      <div class="home-count">Найдено: {{ foundCount }}</div>
+  <div class="page">
+    <header class="page__header">
+      <h1 class="page__title">Квартиры в Астане</h1>
+      <div class="page__count">Найдено: {{ foundCount }}</div>
     </header>
 
-    <div class="home-layout">
-      <aside class="home-sidebar">
+    <div class="layout">
+      <aside class="layout__sidebar">
         <FiltersPanel
           :model-value="filters"
           :errors="errors"
@@ -38,7 +38,7 @@ const {
         />
       </aside>
 
-      <main class="home-content">
+      <main class="layout__content">
         <ApartmentsGrid :apartments="filteredApartments" />
       </main>
     </div>
@@ -46,13 +46,13 @@ const {
 </template>
 
 <style scoped>
-.home {
+.page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 32px 20px 40px;
 }
 
-.home-header {
+.page__header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -60,58 +60,58 @@ const {
   margin-bottom: 24px;
 }
 
-.home-title {
+.page__title {
   margin: 0;
   font-size: clamp(24px, 3vw, 34px);
   font-weight: 700;
   color: #111827;
 }
 
-.home-count {
+.page__count {
   font-weight: 600;
   color: #374151;
   white-space: nowrap;
 }
 
-.home-layout {
+.layout {
   display: grid;
   grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
   gap: 24px;
   align-items: start;
 }
 
-.home-sidebar {
+.layout__sidebar {
   position: sticky;
   top: 16px;
 }
 
-.home-content {
+.layout__content {
   min-width: 0;
 }
 
 @media (max-width: 1024px) {
-  .home-layout {
+  .layout {
     grid-template-columns: minmax(240px, 280px) minmax(0, 1fr);
     gap: 20px;
   }
 }
 
 @media (max-width: 880px) {
-  .home {
+  .page {
     padding: 24px 16px 32px;
   }
 
-  .home-header {
+  .page__header {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
   }
 
-  .home-layout {
+  .layout {
     grid-template-columns: 1fr;
   }
 
-  .home-sidebar {
+  .layout__sidebar {
     position: static;
   }
 }
