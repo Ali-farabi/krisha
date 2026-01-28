@@ -182,13 +182,24 @@ const onAddress = (value: string) => updateField('address', value)
 
 .filter-form-desktop {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
+  grid-template-columns: 1.1fr 1.1fr 1.4fr;
+  column-gap: 20px;
+  row-gap: 16px;
   align-items: start;
+}
+
+.filter-form-desktop .filter-item {
+  margin-bottom: 0;
+  min-width: 0;
+}
+
+.filter-form-desktop :deep(.el-form-item__label) {
+  white-space: nowrap;
 }
 
 .filter-form-desktop .filter-reset {
   grid-column: 1 / -1;
+  margin-top: 4px;
 }
 
 .filter-hint {
