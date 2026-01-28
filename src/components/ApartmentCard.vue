@@ -1,15 +1,22 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { Apartment } from '../types/apartment'
 
-defineProps<{
+const props = defineProps<{
   apartment: Apartment
 }>()
+
+const imageUrl = computed(() => {
+  const base = import.meta.env.BASE_URL
+  const path = props.apartment.image.replace(/^\//, '')
+  return `${base}${path}`
+})
 </script>
 
 <template>
   <el-card class="card" shadow="hover">
     <el-image
-      :src="apartment.image"
+      :src="imageUrl"
       fit="cover"
       loading="lazy"
       class="card-image"
