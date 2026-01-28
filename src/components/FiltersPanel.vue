@@ -181,9 +181,9 @@ const onAddress = (value: string) => updateField('address', value)
 }
 
 .filter-form-desktop {
-  display: grid;
+  display: column;
   grid-template-columns: 1.1fr 1.1fr 1.4fr;
-  column-gap: 20px;
+  column-gap: 2px;
   row-gap: 16px;
   align-items: start;
 }
